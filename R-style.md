@@ -3,7 +3,7 @@
 * use dash or underscore to link words;
 * with extension `.R`.
 
-  e.g.: `eda.R`, ``.
+  e.g.: `eda.R`, `lin_reg.R`.
 
 2. Variable naming
 * use lowercase typically;
