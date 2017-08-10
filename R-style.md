@@ -21,12 +21,20 @@
   e.g.: `tuningRandomForest()`, `getTestErr()`.
   
 4. Spacing
-* use spaces around all binary operators, `x + y`, `x %in% predictors`;
+* use spaces around all binary operators, `r <- 2`, `x + y`, `x %in% predictors`;
 * always place a space after a comma, `df[1, ]`, `df[, 1]`;
-* always place a space before a left parentheses, `if (x <= 3)`;
+* always place a space before a left parentheses, `if (x <= 3)`.
 
 5. Curly brace
 * Opening curly brace does not go on its own line;
 
 6. Assignment
-* use `<-`
+* use `<-`.
+
+7. Organizing
+* use `###` for head;
+* use `----` or `====` to separate code chunks
+
+8. Indent
+* typically use two spaces to indent;
+* disable vertically align arguments in auto-indent.
