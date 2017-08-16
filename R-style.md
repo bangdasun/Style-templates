@@ -32,7 +32,7 @@
 * use `<-`.
 
 7. Organizing
-* use `###` for head;
+* use `###`, `##` for head I and II;
 * use `----` or `====` to separate code chunks
 
 8. Indent
