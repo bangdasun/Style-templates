@@ -33,3 +33,7 @@ def get_power_sum(lst, p=2):
      
     return s
 ```
+
+* R version
+
+* Java version
