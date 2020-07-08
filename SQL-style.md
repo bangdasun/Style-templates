@@ -7,7 +7,7 @@ Refer from [How I write SQL code - Marton Trencseni](http://bytepawn.com/how-i-w
 
 #### General template
 
-```
+```sql
 SELECT
   user_id,
   account_id
@@ -20,7 +20,7 @@ WHERE
 ```
 
 
-```
+```sql
 SELECT
   cust.user_id,
   cust.account_id,
@@ -35,7 +35,7 @@ ON
 
 #### Format of `CASE WHEN`
 
-```
+```sql
 SELECT
   CASE 
     WHEN weekday = 'Monday'  THEN 1
@@ -50,10 +50,10 @@ SELECT
 
 Much better than sub-queries.
 
-```
+```sql
 WITH 
 step1 AS (
-  // query 1
+  /* query 1 */
   SELECT
     ...
   FROM
@@ -62,7 +62,7 @@ step1 AS (
     ...
 ),
 step2 AS (
-  // query 2
+  /* query 2 */
   SELECT
     ...
   FROM
