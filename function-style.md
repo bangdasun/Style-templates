@@ -3,7 +3,7 @@
 Standard of function naming, doc style.
 
 * Python version
-```
+```python
 def get_power_sum(lst, p=2):
     """
     Get the sum of some power of all elements in list
